@@ -1,17 +1,4 @@
 
-//preloader script
-setTimeout(function(){
-  $('body').addClass('loaded');
-  $('h1').css('color', '#222');
-}, 1100);
-
-//menu toggle script
-$(document).ready(function(){
-	$('#nav-icon').click(function(){
-		$(this).toggleClass('open');
-	});
-});
-
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {
   if ($(this).scrollTop() >= 50) {    // If page is scrolled more than 50px
